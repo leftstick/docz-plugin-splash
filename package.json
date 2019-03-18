@@ -1,0 +1,32 @@
+{
+  "name": "docz-plugin-splash",
+  "version": "1.0.0",
+  "description": "This package enables splash spinner before static assets load, and destroy the spinner before the doc actually render",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "jsnext:main": "dist/index.m.js",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "docz-core": "^0.13.7"
+  },
+  "devDependencies": {
+    "rollup": "^1.6.0",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "prettier": "^1.16.4",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333"
+  }
+}
