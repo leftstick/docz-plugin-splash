@@ -1,6 +1,6 @@
 {
   "name": "docz-plugin-splash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package enables splash spinner before static assets load, and destroy the spinner before the doc actually render",
   "license": "MIT",
   "main": "dist/index.js",
