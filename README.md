@@ -8,6 +8,8 @@
 Docz plugin to enable splash spinner before static assets load, and destroy the spinner after the doc actually rendered
 
 
+![](./docs/loading.gif)
+
 ## Installation
 
 First of all, install plugin:
